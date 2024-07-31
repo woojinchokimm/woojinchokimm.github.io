@@ -1,14 +1,47 @@
 <div class="row g-5 mb-5">
   <div>
-    <h3 class="fw-bold border-bottom pb-3 mb-5">Publications</h3>
-    {% if page.title == "Home" %}
-      {% for item in site.data.publications.featured %}
-        <p><a href="{{ item.url }}">{{ item.name }}</a></p>
-      {% endfor %}
-    {% else %}
-      {% for item in site.data.publications.index %}
-        <p><a href="{{ item.url }}">{{ item.name }}</a></p>
-      {% endfor %}
-    {% endif %}
+    <h3 class="fw-bold border-bottom pb-3 mb-5">news and publications</h3>
+    <div style="margin-top: 20px;">
+      {% if page.title == "Home" %}
+        {% for item in site.data.publications.featured %}
+          <div style="margin-bottom: 20px; padding: 15px; background-color: #f9f9f9; border-radius: 5px; box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1); display: flex; justify-content: space-between; align-items: center;">
+            <div style="flex: 1; max-width: 55%;">
+              <h5 style="margin: 0 0 10px; font-size: 1.1em;">{{ item.title }}</h5>
+              <p style="margin: 5px 0; text-align: justify;">{{ item.journal }}</p>
+              <p style="margin: 5px 0; text-align: justify;" class="authors">{{ item.authors }}</p>
+            </div>
+            <a href="{{ item.url }}" target="_blank" style="width: 40%; margin-left: 15px;">
+              <img src="{{ item.image | relative_url }}" alt="Publication Image" style="width: 80%; height: auto; border-radius: 5px;">
+            </a>
+          </div>
+        {% endfor %}
+      {% else %}
+        {% for item in site.data.publications.index %}
+          <div style="margin-bottom: 20px; padding: 15px; background-color: #f9f9f9; border-radius: 5px; box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1); display: flex; justify-content: space-between; align-items: center;">
+            <div style="flex: 1; max-width: 50%;">
+              <h5 style="margin: 0 0 10px; font-size: 1.1em;">{{ item.title }}</h5>
+              <p style="margin: 5px 0; text-align: justify;">{{ item.journal }}</p>
+              <p style="margin: 5px 0; text-align: justify;" class="authors">{{ item.authors }}</p>
+            </div>
+            <a href="{{ item.url }}" target="_blank" style="width: 40%; margin-left: 15px;">
+              <img src="{{ item.image | relative_url }}" alt="Publication Image" style="width: 100%; height: auto; border-radius: 5px;">
+            </a>
+          </div>
+        {% endfor %}
+      {% endif %}
+    </div>
   </div>
 </div>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    var authorsElements = document.querySelectorAll('.authors');
+    authorsElements.forEach(function(authorsElement) {
+      var authorsText = authorsElement.innerText;
+      var authorsArray = authorsText.split(', ');
+      if (authorsArray.length > 3) {
+        authorsElement.innerText = authorsArray.slice(0, 3).join(', ') + ', et al';
+      }
+    });
+  });
+</script>

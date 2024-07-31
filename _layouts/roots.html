@@ -1,0 +1,17 @@
+---
+layout: default
+---
+
+{{ content }}
+
+<div class="row g-5 mb-5">
+  <div>
+    <h3 class="fw-bold border-bottom pb-3 mb-5">saga</h3>
+    {% for root in site.data.settings.roots %}
+      <div class="mb-4">
+        <h4>{{ root.title }}</h4>
+        <img src="{{ root.image }}" alt="{{ root.title }}" style="width: 80%; height: auto; border-radius: 5px;">
+      </div>
+    {% endfor %}
+  </div>
+</div>

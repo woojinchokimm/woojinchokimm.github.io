@@ -1,10 +1,79 @@
+# featured:
+# - {name: 'Automated Detection of Apical Foreshortening in Echocardiography Using Statistical Shape Modelling (UMB 2023). Cho Kim W. J.*, Beqiri A., Lewandowski A. J., Mumith A., Sarwar R., King A. P., Leeson P., Lamata P.', url: '/publications/Automated Detection of Apical Foreshortening.pdf'}
+# - {name: 'Beyond Simpson’s Rule: Accounting for Orientation and Ellipticity Assumptions (UMB 2022). Cho Kim W. J.*, Beqiri A., Lewandowski A. J., Puyol-Antón E., Markham D. C., King A. P., Leeson P., Lamata P.', url: '/publications/BeyondSimpson.pdf'}
+# - {name: 'BackMix: Mitigating Shortcut Learning in Echocardiography with Minimal Supervision (MICCAI 2024). Bransby K., Beqiri A., Cho Kim W.J., Oliveira J., Chartsias A., Gomez A.', url: 'https://arxiv.org/pdf/2406.19148'}
+# - {name: 'Multi-Site Class-Incremental Learning with Weighted Experts in Echocardiography (ASMUS 2024). Bransby K., Beqiri A., Cho Kim W.J., Oliveira J., Chartsias A., Gomez A.', url: 'https://github.com/kitbransby/class-incremental-learning-echo'}
+# - {name: 'Asymmetric Contour Uncertainty Estimation for Medical Image Segmentation (MICCAI 2023). Judge T., Bernard O., Cho Kim W. J., Gomez A., Chartsias A., Jodoin P. M.', url: 'https://link.springer.com/chapter/10.1007/978-3-031-43898-1_21'}
+
+# index:
+# - {name: 'Automated Detection of Apical Foreshortening in Echocardiography Using Statistical Shape Modelling (UMB 2023). Cho Kim W. J.*, Beqiri A., Lewandowski A. J., Mumith A., Sarwar R., King A. P., Leeson P., Lamata P.', url: '/publications/Automated Detection of Apical Foreshortening.pdf'}
+# - {name: 'Beyond Simpson’s Rule: Accounting for Orientation and Ellipticity Assumptions (UMB 2022). Cho Kim W. J.*, Beqiri A., Lewandowski A. J., Puyol-Antón E., Markham D. C., King A. P., Leeson P., Lamata P.', url: '/publications/BeyondSimpson.pdf'}
+# - {name: 'BackMix: Mitigating Shortcut Learning in Echocardiography with Minimal Supervision (MICCAI 2024). Bransby K., Beqiri A., Cho Kim W.J., Oliveira J., Chartsias A., Gomez A.', url: 'https://arxiv.org/pdf/2406.19148'}
+# - {name: 'Multi-Site Class-Incremental Learning with Weighted Experts in Echocardiography (ASMUS 2024). Bransby K., Beqiri A., Cho Kim W.J., Oliveira J., Chartsias A., Gomez A.', url: 'https://github.com/kitbransby/class-incremental-learning-echo'}
+# - {name: 'Asymmetric Contour Uncertainty Estimation for Medical Image Segmentation (MICCAI 2023). Judge T., Bernard O., Cho Kim W. J., Gomez A., Chartsias A., Jodoin P. M.', url: 'https://link.springer.com/chapter/10.1007/978-3-031-43898-1_21'}
+
+
 featured:
-- {name: 'Testing General Relativity with Present and Future Astrophysical Observations. Emanuele Berti (Mississippi U. and Lisbon, CENTRA), Enrico Barausse (Paris, Inst. Astrophys. and Paris U., VI-VII), Vitor Cardoso (Lisbon, IST and Perimeter Inst. Theor. Phys. and Lisbon, CENTRA), Leonardo Gualtieri (Rome U. and INFN, Rome), Paolo Pani (Rome U. and INFN, Rome and Lisbon, IST and Lisbon, CENTRA) et al.', url: '/publications/1501.07274.pdf'}
-- {name: 'Shock interactions, turbulence and the origin of the stellar mass spectrum. Ralph E. Pudritz and N. K.-R. Kevlahan', url: 'http://ms.mcmaster.ca/kevla/pdf/articles/PhilTransRSoc_2013.pdf'}
-- {name: 'Low shear diffusion central schemes for particle methods. Jonathan Panuelos, James Wadsley, Nicholas Kevlahan', url: 'http://ms.mcmaster.ca/kevla/pdf/articles/jcp_v414.pdf'}
+- {title: 'Automated Detection of Apical Foreshortening in Echocardiography Using Statistical Shape Modelling.',
+  journal: 'Ultrasound in Medicine & Biology Volume 49, Issue 9, September 2023, Pages 1996-2005',
+  authors: 'Cho Kim W. J.*, Beqiri A., Lewandowski A. J., Mumith A., Sarwar R., King A. P., Leeson P., Lamata P.', 
+  url: '/publications/Automated Detection of Apical Foreshortening.pdf',
+  image: 'assets/img/publication_pics/automateddetection.jpg'
+  }
+- {title: 'Beyond Simpson’s Rule: Accounting for Orientation and Ellipticity Assumptions.',
+  journal: 'Ultrasound in Medicine & Biology Volume 48, Issue 12, December 2022, Pages 2476-2485',
+  authors: 'Cho Kim W. J.*, Beqiri A., Lewandowski A. J., Puyol-Antón E., Markham D. C., King A. P., Leeson P., Lamata P.', 
+  url: '/publications/BeyondSimpson.pdf',
+  image: 'assets/img/publication_pics/beyondsimpson.png'
+  }
+- {title: 'BackMix: Mitigating Shortcut Learning in Echocardiography with Minimal Supervision.',
+  journal: '27th International Conference on Medical Image Computing and Computer Assisted Intervention (MICCAI 2024)',
+  authors: 'Bransby K., Beqiri A., Cho Kim W.J., Oliveira J., Chartsias A., Gomez A.', 
+  url: 'https://arxiv.org/pdf/2406.19148',
+  image: 'assets/img/publication_pics/backmix.png',
+  }
+- {title: 'Multi-Site Class-Incremental Learning with Weighted Experts in Echocardiography.',
+  journal: '5th International Workshop of Advances in Simplifying Medical UltraSound (ASMUS 2024)',
+  authors: 'Bransby K., Beqiri A., Cho Kim W.J., Oliveira J., Chartsias A., Gomez A.', 
+  url: 'https://github.com/kitbransby/class-incremental-learning-echo',
+  image: 'assets/img/publication_pics/multisite.png',
+  }
+- {title: 'Asymmetric Contour Uncertainty Estimation for Medical Image Segmentation.',
+  journal: '26th International Conference on Medical Image Computing and Computer Assisted Intervention (MICCAI 2023)',
+  authors: 'Judge T., Bernard O., Cho Kim W. J., Gomez A., Chartsias A., Jodoin P. M.', 
+  url: 'https://link.springer.com/chapter/10.1007/978-3-031-43898-1_21',
+  image: 'assets/img/publication_pics/aleatoricuncertainty.png',
+  }
+
 
 index:
-- {name: 'Testing General Relativity with Present and Future Astrophysical Observations. Emanuele Berti (Mississippi U. and Lisbon, CENTRA), Enrico Barausse (Paris, Inst. Astrophys. and Paris U., VI-VII), Vitor Cardoso (Lisbon, IST and Perimeter Inst. Theor. Phys. and Lisbon, CENTRA), Leonardo Gualtieri (Rome U. and INFN, Rome), Paolo Pani (Rome U. and INFN, Rome and Lisbon, IST and Lisbon, CENTRA) et al.', url: '/publications/1501.07274.pdf'}
-- {name: 'Shock interactions, turbulence and the origin of the stellar mass spectrum. Ralph E. Pudritz and N. K.-R. Kevlahan', url: 'http://ms.mcmaster.ca/kevla/pdf/articles/PhilTransRSoc_2013.pdf'}
-- {name: 'Low shear diffusion central schemes for particle methods. Jonathan Panuelos, James Wadsley, Nicholas Kevlahan', url: 'http://ms.mcmaster.ca/kevla/pdf/articles/jcp_v414.pdf'}
-- {name: 'Numerical solutions of thin film equations for polymer flows. Thomas. Salez, Joshua D. McGraw, Sara Cormier, Oliver Bäumchen, Kari Dalnoki-Veress, and Elie Raphaël', url: 'https://static1.squarespace.com/static/5684891d7086d74497aeb71f/t/56ec510d2fe1319543ab6d6f/1458327821946/10.1140-epje-i2012-12114-x.pdf'}
+- {title: 'Automated Detection of Apical Foreshortening in Echocardiography Using Statistical Shape Modelling.',
+  journal: 'Ultrasound in Medicine & Biology Volume 49, Issue 9, September 2023',
+  authors: 'Cho Kim W. J.*, Beqiri A., Lewandowski A. J., Mumith A., Sarwar R., King A. P., Leeson P., Lamata P.', 
+  url: '/publications/Automated Detection of Apical Foreshortening.pdf',
+  image: 'assets/img/publication_pics/automateddetection.jpg'
+  }
+- {title: 'Beyond Simpson’s Rule: Accounting for Orientation and Ellipticity Assumptions.',
+  journal: 'Ultrasound in Medicine & Biology Volume 48, Issue 12, December 2022',
+  authors: 'Cho Kim W. J.*, Beqiri A., Lewandowski A. J., Puyol-Antón E., Markham D. C., King A. P., Leeson P., Lamata P.', 
+  url: '/publications/BeyondSimpson.pdf',
+  image: 'assets/img/publication_pics/beyondsimpson.png'
+  }
+- {title: 'BackMix: Mitigating Shortcut Learning in Echocardiography with Minimal Supervision.',
+  journal: '27th International Conference on Medical Image Computing and Computer Assisted Intervention (MICCAI 2024)',
+  authors: 'Bransby K., Beqiri A., Cho Kim W.J., Oliveira J., Chartsias A., Gomez A.', 
+  url: 'https://arxiv.org/pdf/2406.19148',
+  image: 'assets/img/publication_pics/backmix.png',
+  }
+- {title: 'Multi-Site Class-Incremental Learning with Weighted Experts in Echocardiography.',
+  journal: '5th International Workshop of Advances in Simplifying Medical UltraSound (ASMUS 2024)',
+  authors: 'Bransby K., Beqiri A., Cho Kim W.J., Oliveira J., Chartsias A., Gomez A.', 
+  url: 'https://github.com/kitbransby/class-incremental-learning-echo',
+  image: 'assets/img/publication_pics/multisite.png',
+  }
+- {title: 'Asymmetric Contour Uncertainty Estimation for Medical Image Segmentation.',
+  journal: '26th International Conference on Medical Image Computing and Computer Assisted Intervention (MICCAI 2023)',
+  authors: 'Judge T., Bernard O., Cho Kim W. J., Gomez A., Chartsias A., Jodoin P. M.', 
+  url: 'https://link.springer.com/chapter/10.1007/978-3-031-43898-1_21',
+  image: 'assets/img/publication_pics/aleatoricuncertainty.png',
+  }

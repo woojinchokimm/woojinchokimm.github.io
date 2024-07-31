@@ -9,7 +9,7 @@ layout: default
     <h3 class="fw-bold border-bottom pb-3 mb-5">CV</h3>
     <div class="row g-5 mb-5">
       <div class="col-md-2">
-        <h4>Education</h4>
+        <h4>education</h4>
       </div>
       <div class="col-md-10">
         {% for section in site.data.cv.education %}
@@ -20,13 +20,19 @@ layout: default
     </div>
     <div class="row g-5 mb-5">
       <div class="col-md-2">
-        <h4>Academic Experience</h4>
+        <h4>work experiences</h4>
       </div>
       <div class="col-md-10">
-        {% for section in site.data.cv.academic-experience %}
+        {% for section in site.data.cv.work-experience %}
           <p class="fw-bold">{{ section.title }}</p>
           <p>{{ section.description }}</p>
         {% endfor %}
+      </div>
+    </div>
+    <!-- Add the download link here at the bottom -->
+    <div class="row g-5 mb-5">
+      <div class="col-md-12">
+        <p><a href="{{ site.baseurl }}/assets/cv_wjck.pdf" target="_blank">Download CV here</a></p>
       </div>
     </div>
   </div>

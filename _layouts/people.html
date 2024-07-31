@@ -4,17 +4,37 @@ layout: default
 
 {{ content }}
 
-<h3 class="fw-bold border-bottom pb-3 mb-5">People</h3>
+
+<h3 class="fw-bold border-bottom pb-3 mb-5">people</h3>
 {% for person in site.data.settings.people %}
 <div class="row g-5 mb-5">
   <div class="col-md-6">
-    <h5>{{ person.name }}</h5>
-    <p>Email: {{ person.email }}</p>
-    <p>Phone: {{ person.phone }}</p>
-    <p><a href="{{ site.github.url }}/people/{{ person.url }}">More info</a></p>
+    <h4>{{ person.name }}</h4> <!-- Largest -->
+    {% if person.title_url %}
+      <h5>{{ person.title }} <a href="{{ person.title_url }}" target="_blank"><img src="{{ site.github.url }}/{{ person.title_icon }}" alt="Link Icon" style="width: 25px; height: 25px; margin-left: 5px;"></a></h5>
+    {% else %}
+      <h5>{{ person.title }}</h5>
+    {% endif %}
+    {% if person.title_additional %}
+      {% if person.title_additional_url %}
+        <h6>{{ person.title_additional }} <a href="{{ person.title_additional_url }}" target="_blank"><img src="{{ site.github.url }}/{{ person.title_additional_icon }}" alt="Link Icon" style="width: 25px; height: 25px; margin-left: 5px;"></a></h6>
+      {% else %}
+        <h6>{{ person.title_additional }}</h6>
+      {% endif %}
+    {% endif %}
+    <p style="color: #000000; font-size: 1em; margin-bottom: 0.5em;">{{ person.department }}</p> <!-- Smaller, muted text -->
+    <p style="color: #000000; font-size: 1em; margin-bottom: 0.5em;">
+      <a href="{{ person.institution_url }}" target="_blank" style="text-decoration: none;">
+        {{ person.institution }} <img src="{{ site.github.url }}/{{ person.institution_icon }}" alt="Institution Icon" style="width: 25px; height: 25px; margin-left: 5px;">
+      </a>
+    </p> <!-- Institution with hyperlink -->
+    <p>{{ person.email }}</p>
+    <!-- <p>Phone: {{ person.phone }}</p> -->
+    <p><a href="{{ person.url }}">More info</a></p>
   </div>
   <div class="col-md-6">
-    <img src="{{ site.github.url }}/{{ person.image }}" alt="Contact" width="100%">
+    <img src="{{ site.github.url }}/{{ person.image }}" alt="Contact" width="50%">
   </div>
 </div>
 {% endfor %}
+
