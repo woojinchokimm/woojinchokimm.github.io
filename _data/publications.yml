@@ -44,6 +44,12 @@ featured:
   url: 'https://link.springer.com/chapter/10.1007/978-3-031-43898-1_21',
   image: 'assets/img/publication_pics/aleatoricuncertainty.png',
   }
+- {title: Left Ventricle Contouring of Apical Three-Chamber Views on 2D Echocardiography.',
+  journal: '3rd International Workshop of Advances in Simplifying Medical UltraSound (ASMUS 2022)',
+  authors: 'Gomez A., Porumb M., Mumith A., Judge T., Gao S., Cho Kim W. J, O. Jorge, Chartsias A.', 
+  url: 'https://arxiv.org/pdf/2207.06330',
+  image: 'assets/img/publication_pics/segmentation3c.png',
+  }
 
 
 index:
@@ -76,4 +82,10 @@ index:
   authors: 'Judge T., Bernard O., Cho Kim W. J., Gomez A., Chartsias A., Jodoin P. M.', 
   url: 'https://link.springer.com/chapter/10.1007/978-3-031-43898-1_21',
   image: 'assets/img/publication_pics/aleatoricuncertainty.png',
+  }
+- {title: Left Ventricle Contouring of Apical Three-Chamber Views on 2D Echocardiography.',
+  journal: '3rd International Workshop of Advances in Simplifying Medical UltraSound (ASMUS 2022)',
+  authors: 'Gomez A., Porumb M., Mumith A., Judge T., Gao S., Cho Kim W. J, O. Jorge, Chartsias A.', 
+  url: 'https://arxiv.org/pdf/2207.06330',
+  image: 'assets/img/publication_pics/segmentation3c.png',
   }
