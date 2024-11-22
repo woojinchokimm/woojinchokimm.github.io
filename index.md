@@ -3,10 +3,6 @@ layout: home
 title: "Home"
 ---
 
-I'm a deep learning research scientist at [Ultromics](https://www.ultromics.com), where I channel my passion for deep learning into mastering the art of cardiac image interpretation. 
+Hi, I’m Woo-Jin, a research scientist at [Ultromics](https://www.ultromics.com). I’ve had the privilege of working on some of the world's first FDA-cleared AI products that are reshaping cardiovascular screening and diagnostics. From model development to rigorous validation, my work directly contributes to creating tools that help clinicians make faster and more accurate decisions in patient care.
 
-My focus? Ensuring our models are as sharp and consistent as the best cardiologists' eyes, just without the need for coffee breaks. ☕
-
-I develop and validate models that provide zero variability and ensure fully reproducible outcomes in echocardiographic view classification. 
-
-Alongside my main research initiatives, I am interested in applying multi-task and contrastive learning techniques. 
+On the research side, I’ve delved into fascinating areas like transformers, multi-task models, and CNNs, exploring how these technologies can tackle the unique challenges of medical AI. I love the balance between innovative research and the hands-on development of solutions that make a real-world impact.
