@@ -50,7 +50,7 @@ featured:
   url: 'https://link.springer.com/chapter/10.1007/978-3-031-43898-1_21',
   image: 'assets/img/publication_pics/aleatoricuncertainty.png',
   }
-- {title: Left Ventricle Contouring of Apical Three-Chamber Views on 2D Echocardiography.',
+- {title: 'Left Ventricle Contouring of Apical Three-Chamber Views on 2D Echocardiography.',
   journal: '3rd International Workshop of Advances in Simplifying Medical UltraSound (ASMUS 2022)',
   authors: 'Gomez A., Porumb M., Mumith A., Judge T., Gao S., Cho Kim W. J, O. Jorge, Chartsias A.', 
   url: 'https://arxiv.org/pdf/2207.06330',
@@ -59,6 +59,13 @@ featured:
 
 
 index:
+- { title: 'Learning to Stop: Reinforcement Learning for Efficient Patient-Level Echocardiographic Classification.',
+    journal: '6th International Workshop of Advances in Simplifying Medical UltraSound (ASMUS 2025 at MICCAI)',
+    authors: 'Cho Kim W. J.*, Oliveira J.*, Beqiri. A, Thorley A., Strom J., O Driscoll. J, Sharma Rajan., Slivnick J., Lang R., Gomez A., Chartsias A.',
+    url: '/publications/Learning to Stop Reinforcement Learning for Efficient Patient-Level Echocardiographic Classification.pdf',
+    image: 'assets/img/publication_pics/rl_pic.png'
+}
+
 - {title: 'Automated Detection of Apical Foreshortening in Echocardiography Using Statistical Shape Modelling.',
   journal: 'Ultrasound in Medicine & Biology Volume 49, Issue 9, September 2023',
   authors: 'Cho Kim W. J.*, Beqiri A., Lewandowski A. J., Mumith A., Sarwar R., King A. P., Leeson P., Lamata P.', 
@@ -89,7 +96,7 @@ index:
   url: 'https://link.springer.com/chapter/10.1007/978-3-031-43898-1_21',
   image: 'assets/img/publication_pics/aleatoricuncertainty.png',
   }
-- {title: Left Ventricle Contouring of Apical Three-Chamber Views on 2D Echocardiography.',
+- {title: 'Left Ventricle Contouring of Apical Three-Chamber Views on 2D Echocardiography.',
   journal: '3rd International Workshop of Advances in Simplifying Medical UltraSound (ASMUS 2022)',
   authors: 'Gomez A., Porumb M., Mumith A., Judge T., Gao S., Cho Kim W. J, O. Jorge, Chartsias A.', 
   url: 'https://arxiv.org/pdf/2207.06330',
