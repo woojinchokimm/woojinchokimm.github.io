@@ -3,6 +3,6 @@ layout: home
 title: "Home"
 ---
 
-Hi, I’m Woo-Jin, a research scientist at [Ultromics](https://www.ultromics.com). I’ve had the privilege of working on some of the world's first FDA-cleared AI products that are reshaping cardiovascular screening and diagnostics. From model development to rigorous validation, my work directly contributes to creating tools that help clinicians make faster and more accurate decisions in patient care.
+Hi, I'm Woo-Jin - AI team lead at [21D](https://www.21d.co.uk/). I build and deploy deep learning models behind our proprietary full-jaw dental rehabilitation platform - the first of its kind in the field. Previously at [Ultromics](https://www.ultromics.com), I've also had the privilege of working on some of the world's first FDA-cleared AI products that are reshaping cardiovascular screening and diagnostics. I'd like to think my work plays a small part in helping clinicians make faster and more accurate decisions for their patients.
 
-**research interests**: pretraining methods (MAE, DINOv2), foundation model fine-tuning with LoRA/Explora, reinforcement learning (PPO, DQN, MTCS), and end-to-end machine learning deployment.
+**research interests**: pretraining large vision models, reinforcement learning and agentic systems, generative modelling.
