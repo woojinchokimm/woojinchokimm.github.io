@@ -18,7 +18,7 @@ featured:
     journal: '6th International Workshop of Advances in Simplifying Medical UltraSound (ASMUS 2025 at MICCAI)',
     authors: 'Cho Kim W. J.*, Oliveira J.*, Beqiri. A, Thorley A., Strom J., O Driscoll. J, Sharma Rajan., Slivnick J., Lang R., Gomez A., Chartsias A.',
     url: '/publications/Learning to Stop Reinforcement Learning for Efficient Patient-Level Echocardiographic Classification.pdf',
-    image: 'assets/img/publication_pics/rl_pic.jpg'
+    image: 'assets/img/publication_pics/rl_pic.png'
 }
 - {title: 'Automated Detection of Apical Foreshortening in Echocardiography Using Statistical Shape Modelling.',
   journal: 'Ultrasound in Medicine & Biology Volume 49, Issue 9, September 2023, Pages 1996-2005',
